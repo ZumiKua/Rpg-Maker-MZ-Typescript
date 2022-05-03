@@ -4089,7 +4089,7 @@ declare class Scene_Title extends Scene_Base {
     public createForeground(): void;
     public drawGameTitle(): void;
     public adjustBackground(): void;
-    public createCommandWindw(): void;
+    public createCommandWindow(): void;
     public commandWindowRect(): Rectangle;
     public commandNewGame(): void;
     public commandContinue(): void;

@@ -30,7 +30,7 @@ declare class Scene_Title extends Scene_Base {
 
     public adjustBackground(): void;
 
-    public createCommandWindw(): void;
+    public createCommandWindow(): void;
 
     public commandWindowRect(): Rectangle;
 
