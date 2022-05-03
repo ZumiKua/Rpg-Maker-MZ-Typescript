@@ -77,9 +77,14 @@ const sourceFile  = ts.createSourceFile(
     ts.ScriptKind.TS
 );
 const printer = ts.createPrinter();
-const outputFile = printer.printList(
+let outputFile = printer.printList(
     ts.ListFormat.MultiLine,
     ts.factory.createNodeArray(nodes),
     sourceFile
 );
-fs.writeFileSync("ambient/index.d.ts", outputFile);
+let finalStr = "/* eslint-disable @typescript-eslint/triple-slash-reference */\n";
+finalStr += "/// <reference path=\"./pako.d.ts\" />\n";
+finalStr += "/// <reference path=\"./pixi.js.d.ts\" />\n";
+finalStr += outputFile;
+
+fs.writeFileSync("ambient/index.d.ts", finalStr);

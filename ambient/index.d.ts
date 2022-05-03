@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/triple-slash-reference */
 /// <reference path="./pako.d.ts" />
 /// <reference path="./pixi.js.d.ts" />
-
 declare namespace RPG {
     export interface Data {
         id: number;
