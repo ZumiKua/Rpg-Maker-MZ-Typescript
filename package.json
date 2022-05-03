@@ -7,7 +7,8 @@
     "lib"
   ],
   "scripts": {
-    "docs": "webdoc -R README.md"
+    "docs": "webdoc -R README.md",
+    "convertAmbient": "tsc converter.ts && node converter.js"
   },
   "types": "./lib/index.d.ts",
   "repository": {
