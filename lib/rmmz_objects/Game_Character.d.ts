@@ -1,6 +1,7 @@
 import {RPG} from "../RPG";
+import {Game_CharacterBase} from "./Game_CharacterBase";
 
-declare class Game_Character {
+declare class Game_Character extends Game_CharacterBase {
 
     constructor();
 
@@ -28,13 +29,13 @@ declare class Game_Character {
 
     public moveRandom(): void;
 
-    public moveTowardCharacter(character: Game_Character): void;
+    public moveTowardCharacter(character: Game_CharacterBase): void;
 
-    public moveAwayFromCharacter(character: Game_Character): void;
+    public moveAwayFromCharacter(character: Game_CharacterBase): void;
 
-    public turnTowardCharacter(character: Game_Character): void;
+    public turnTowardCharacter(character: Game_CharacterBase): void;
 
-    public turnAwayFromCharacter(character: Game_Character): void;
+    public turnAwayFromCharacter(character: Game_CharacterBase): void;
 
     public turnTowardPlayer(): void;
 
@@ -62,7 +63,7 @@ declare class Game_Character {
 
     public turnRandom(): void;
 
-    public swap(character: Game_Character): void;
+    public swap(character: Game_CharacterBase): void;
 
     public findDirectionTo(goalX: number, goalY: number): 0 | 2 | 4 | 8 | 6;
 
