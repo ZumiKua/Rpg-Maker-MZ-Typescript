@@ -25,3 +25,4 @@ export * from './Game_Message';
 export * from './Game_Interpreter';
 export * from './Game_Character';
 export * from './Game_CharacterBase';
+export * from './Game_Event';
