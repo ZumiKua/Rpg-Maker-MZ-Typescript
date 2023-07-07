@@ -27,3 +27,4 @@ export * from './Game_Character';
 export * from './Game_CharacterBase';
 export * from './Game_Event';
 export * from './Game_Follower';
+export * from './Game_Followers';
