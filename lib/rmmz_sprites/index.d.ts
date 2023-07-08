@@ -11,3 +11,4 @@ export * from './Sprite_AnimationMV';
 
 export * from './Spriteset_Base';
 export * from './Spriteset_Battle';
+export * from './Sprite_Balloon';
