@@ -1,6 +1,6 @@
 import {Scene_Message} from ".";
 import {Window_MapName} from "../rmmz_windows";
-import {Sprite_Button} from "../rmmz_sprites";
+import {Sprite_Button, Spriteset_Map} from "../rmmz_sprites";
 import {Rectangle} from "../rmmz_core";
 
 
