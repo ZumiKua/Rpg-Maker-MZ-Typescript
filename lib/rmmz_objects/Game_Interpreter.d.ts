@@ -27,7 +27,7 @@ declare class Game_Interpreter {
 
     public clear(): void;
 
-    public setup(list: RPG.PageList[], eventId: number): void;
+    public setup(list: RPG.PageList[], eventId?: number): void;
 
     public loadImages(): void;
 
