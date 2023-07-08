@@ -31,3 +31,4 @@ export * from './Game_Followers';
 export * from './Game_Vehicle';
 export * from './Game_Player';
 export * from './Game_Map';
+export * from './Game_ActionResult';
