@@ -231,6 +231,12 @@ declare namespace RPG {
         scrollY: number;
     }
 
+    export interface Encounter {
+        troopId: number,
+        weight: number,
+        regionSet: number[]
+    }
+
     export interface DataMap {
         autoplayBgm: boolean;
         autoplayBgs: boolean;
@@ -240,7 +246,7 @@ declare namespace RPG {
         bgs: Bgm;
         disableDashing: boolean;
         displayName: string;
-        encounterList: unknown[];
+        encounterList: Encounter[];
         encounterStep: number;
         height: number;
         note: string;
