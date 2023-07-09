@@ -1,3 +1,5 @@
+
+
 declare namespace Utils {
 
     export const RPGMAKER_NAME: string;
@@ -24,6 +26,8 @@ declare namespace Utils {
     export function isNwjs(): boolean;
     export function isOptionValid(name: string): boolean;
     export function setEncryptionInfo(hasImages: boolean,hasAudio: boolean, key: string): void;
+    export function extractFileName(fn: string): string;
+
 
 }
 
