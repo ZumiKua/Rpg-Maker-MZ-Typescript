@@ -89,7 +89,7 @@ declare class Game_Interpreter {
 
     public setupItemChoice(params: [number, number]): void;
 
-    public setupChild(list: RPG.PageList, eventId: number): void;
+    public setupChild(list: RPG.PageList[], eventId: number): void;
 
     public jumpTo(index: number): void;
 
