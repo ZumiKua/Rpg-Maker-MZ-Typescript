@@ -30,7 +30,7 @@ export declare const $dataTilesets: RPG.DataTileset[];
 export declare const $dataCommonEvents: RPG.DataCommonEvent[];
 export declare const $dataSystem: RPG.DataSystem;
 export declare const $dataMapInfos: RPG.DataMapInfo[];
-export declare const $dataMap: RPG.DataMap[];
+export declare const $dataMap: RPG.DataMap;
 
 export declare const $gameTemp: Game_Temp;
 export declare const $gameSystem: Game_System;
