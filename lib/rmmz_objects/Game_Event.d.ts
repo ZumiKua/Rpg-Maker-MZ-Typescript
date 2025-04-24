@@ -1,7 +1,20 @@
 import {RPG} from "../RPG";
-import {Game_Character} from ".";
+import {Game_Character, Game_Interpreter} from ".";
 
 declare class Game_Event extends Game_Character {
+
+    _mapId: number;
+    _eventId: number;
+    _moveType: number;
+    _trigger: number;
+    _starting: boolean;
+    _erased: boolean;
+    _pageIndex: number;
+    _originalPattern: number;
+    _originalDirection: number;
+    _prelockDirection: number;
+    _locked: boolean;
+    _interpreter: Game_Interpreter | null;
 
     constructor(mapId: number, eventId: number);
 
