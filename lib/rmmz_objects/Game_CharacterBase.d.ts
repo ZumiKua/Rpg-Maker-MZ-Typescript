@@ -3,6 +3,9 @@ export type Direction = 2 | 4 | 6 | 8;
 declare abstract class Game_CharacterBase {
     constructor();
 
+    x: number;
+    y: number;
+
     public initMembers(): void;
 
     public pos(x: number, y: number): boolean;
