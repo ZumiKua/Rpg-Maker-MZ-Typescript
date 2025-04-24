@@ -14,7 +14,7 @@ declare class Game_SelfSwitches {
     public initialize(): void;
     public clear(): void;
     public value(key: string): selfSwitches;
-    public setValue(key: string, value: boolean): void;
+    public setValue(key: [number, number, string], value: boolean): void;
     public onChange(): void;
 }
 
