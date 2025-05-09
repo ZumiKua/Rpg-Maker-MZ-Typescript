@@ -19,7 +19,7 @@ import {
 export declare const $dataActors: RPG.DataActor[];
 export declare const $dataClasses: RPG.DataClass[];
 export declare const $dataSkills: RPG.DataSkill[];
-export declare const $dataItems: RPG.DataItem[];
+export declare const $dataItems: RPG.DataConsumable[];
 export declare const $dataWeapons: RPG.DataWeapon[];
 export declare const $dataArmors: RPG.DataArmor[];
 export declare const $dataEnemies: RPG.DataEnemy[];

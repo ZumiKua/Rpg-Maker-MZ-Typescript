@@ -84,6 +84,7 @@ declare class Game_Party extends Game_Unit<Game_Actor> {
 
     public discardMembersEquip(item: RPG.DataEquipItem, amount: number): void;
 
+    public loseItem(item: RPG.DataItemBase, amount: number): void;
     public loseItem(item: RPG.DataEquipItem, amount: number, includeEquip: boolean): void;
     public consumeItem(item: RPG.DataItem): void;
 
